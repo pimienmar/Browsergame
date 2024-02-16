@@ -47,6 +47,10 @@ button {
     color: black;
 }
 
+/* SIDE-BAR */
+.navs {
+    padding-top: 15px;
+}
 .nav {
     width: 200px;
     height: 60px;
