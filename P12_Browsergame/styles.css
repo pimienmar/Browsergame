@@ -119,9 +119,20 @@ main {
 }
 
 .dungeon{
+    
     height: 13rem;
     width: 13rem;
     background-color: brown;
+}
+.charselectPic {
+    height: 150px;
+}
+.charselect{
+    border-left: 2px solid;
+    padding-left: 10px;
+    color: azure;
+    font-style: italic;
+    font-weight: 700;
 }
 
 .dungeon1, .dungeon2{
@@ -152,14 +163,7 @@ main {
 justify-content: center;
 }
 
-.charselect{
-    border-left: 2px solid;
-    padding-left: 10px;
-    color: azure;
-    font-style: italic;
-    font-weight: 700;
 
-}
 
 .fightmenu{
     display: flex;
