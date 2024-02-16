@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browsergame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Dungeongame</h1>
+        </div>
+    </header>
+
+    <div class="login">
+        <div class="logindata">
+            <form action="form.php" method="GET">
+
+                <label for="Benutzername">Benutzername</label><br>
+                <input type="text" name="Benutzername" readonly="readonly"> <br><br>
+
+                <label for="password">Passwort</label><br>
+                <input type="password" name="password" maxlength="10"><br><br>
+
+                <!-- <input type="submit" value="Los gehts!"> -->
+            </form>
+        </div>
+        <div class="loginbutton">
+            <button><a href="overview.html" style="text-decoration: none;" id="loginbutton">Login</a></button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

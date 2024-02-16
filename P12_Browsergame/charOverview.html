@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browsergame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Dungeongame</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="navs">
+            <div class="nav expnav">
+                <div class="levelnav"><span id="leveldiv"></span></div>
+                <div class="expnav"><span id="expdiv">test</span></div>
+            </div>
+            <div class="nav"><a href="charOverview.html">Character</a></div>
+            <div class="nav"><a href="dungeonOverview.html">Dungeon</a></div>
+            <div class="nav"><a href="bossturmOverview.html">Bosstower</a></div>
+            <div class="nav"><a href=></a></div>
+            <div class="nav"><a href=></a></div>
+            <div class="nav"><a href=></a></div>
+            <div class="nav"><a href="overview.html"><span id="faq">FAQ - How to win</span></a></div>
+            <div class="nav"><a href=></a></div>
+
+        </div>
+        <div class="mainwindow dungeons">
+
+            <div class="dungeon">
+                <div class="dungeon1">
+                    <img id="setimg" src="">
+                </div>
+
+            </div>
+
+            <div class="dungeon charselect"> <br>
+                <p>Choose your Character</p> <br>
+               
+                <input type="radio" id="char1" name="char" value="char1" onclick="setCharImg1()">
+                <label for="char1"> Clown Orc</label> <br> <br>
+
+                <input type="radio" id="char2" name="char" value="char2" onclick="setCharImg2()">
+                <label for="char2"> Soda Addicted Pirate</label> <br> <br>
+
+                <input type="radio" id="char3" name="char" value="char3" onclick="setCharImg3()">
+                <label for="char3"> The last blue Orc</label> <br> <br>
+
+                <input type="radio" id="char4" name="char" value="char4" onclick="setCharImg4()">
+                <label for="char4"> Critqueen</label> <br>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
