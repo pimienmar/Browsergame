@@ -103,24 +103,31 @@ main {
 #loginbutton, button{
     background-color: rgb(210, 60, 60);
     color: rgb(252, 252, 252);
-    font-size: 1rem;
     margin: 5px;
     padding: 5px;
+    font-size: larger;
 }
 
 .outputOverview{
     text-align: center;
 }
-
+#centerIndexContent{
+    padding-left: 40%;
+}
 .dungeons{
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
 }
 
-.dungeon{
-    
-    height: 13rem;
+#charSelectButton {
+    background-color: cadetblue;
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.dungeon{  
+    height: 15rem;
     width: 13rem;
     background-color: brown;
 }
@@ -128,7 +135,7 @@ main {
     height: 150px;
 }
 .charselect{
-    border-left: 2px solid;
+    border-left: 0px solid;
     padding-left: 10px;
     color: azure;
     font-style: italic;
@@ -193,3 +200,4 @@ justify-content: center;
 p{ 
     user-select: none;  
 }
+

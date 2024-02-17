@@ -1,3 +1,4 @@
+<!-- Login Page und Charakterauswahl -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,52 +10,59 @@
 </head>
 
 <body>
-
+    
     <header>
         <div class="logo">
             <h1>Dungeongame</h1>
         </div>
     </header>
 
-    <div class="login">
-        <div class="logindata">
-            <form action="form.php" method="GET">
+    <div id="centerIndexContent">
+        <div class="login">
+            <div class="logindata">
+                <form action="form.php" method="GET">
 
-                <label for="Benutzername">Benutzername</label><br>
-                <input type="text" name="Benutzername" readonly="readonly"> <br><br>
+                    <label for="Benutzername">Benutzername</label><br>
+                    <input type="text" name="Benutzername"> <br><br>
 
-                <label for="password">Passwort</label><br>
-                <input type="password" name="password" maxlength="10"><br><br>
+                    <label for="password">Passwort</label><br>
+                    <input type="password" name="password" maxlength="10"><br><br>
 
-                <!-- <input type="submit" value="Los gehts!"> -->
-            </form>
-        </div>
-        <div class="loginbutton">
-            <button><a href="overview.html" style="text-decoration: none;" id="loginbutton">Login</a></button>
-        </div>
-        
-    </div>
-    <div class="charselectDiv">
-        <div class="dungeon charselectPic">
-            <div class="dungeon1">
-                <img id="setimg" src="">
+                    <!-- <input type="submit" value="Los gehts!"> -->
+                </form>
             </div>
-
+            <div class="loginbutton">
+                <button><a href="overview.html" style="text-decoration: none;" id="loginbutton">Login</a></button>
+            </div>
+            
         </div>
-        <div class="dungeon charselect"> <br>
-            <p>Choose your Character</p> <br>
-        
-            <input type="radio" id="char1" name="char" value="char1" onclick="setCharImg1()">
-            <label for="char1"> Clown Orc</label> <br> <br>
+        <!-- Die Character Picture -->
+        <div class="charselectDiv">
+            <div class="dungeon charselectPic">
+                <div class="dungeon1">
+                    <img id="setimg" src="">
+                </div>
 
-            <input type="radio" id="char2" name="char" value="char2" onclick="setCharImg2()">
-            <label for="char2"> Soda Addicted Pirate</label> <br> <br>
+            </div>
+            <!-- Auswahl-Panel mit Namen der Character -->
+            <div class="dungeon charselect"> <br>
+                <p>Choose your Character</p> <br>
+            
+                <input type="radio" id="char1" name="char" value="char1" onclick="setCharImg1()">
+                <label for="char1"> Clown Orc</label> <br> <br>
 
-            <input type="radio" id="char3" name="char" value="char3" onclick="setCharImg3()">
-            <label for="char3"> The last blue Orc</label> <br> <br>
+                <input type="radio" id="char2" name="char" value="char2" onclick="setCharImg2()">
+                <label for="char2"> Soda Addicted Pirate</label> <br> <br>
 
-            <input type="radio" id="char4" name="char" value="char4" onclick="setCharImg4()">
-            <label for="char4"> Critqueen</label> <br>
+                <input type="radio" id="char3" name="char" value="char3" onclick="setCharImg3()">
+                <label for="char3"> The last blue Orc</label> <br> <br>
+
+                <input type="radio" id="char4" name="char" value="char4" onclick="setCharImg4()">
+                <label for="char4"> Critqueen</label> <br>
+                
+                <button id="charSelectButton">Select</button>
+            </div>
+            
         </div>
     </div>
 
