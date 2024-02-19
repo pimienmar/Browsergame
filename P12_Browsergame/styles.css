@@ -23,10 +23,6 @@ body {
 
 }
 
-button {
-    color: black;
-}
-
 /* SIDE-BAR */
 .navs {
     padding-top: 15px;
@@ -60,7 +56,7 @@ a {
     display: flex;
     flex-direction: column;
 }
-
+/* Das grüne Hauptfenster */
 .mainwindow {
     min-height: 30rem;
     min-width: 30rem;
@@ -74,27 +70,11 @@ main {
     flex-direction: row;
 }
 
-#faq{
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-}
-
-#loginbutton, button{
-    background-color: rgb(210, 60, 60);
-    color: rgb(252, 252, 252);
-    margin: 5px;
-    padding: 5px;
-    font-size: larger;
-}
-
 .outputOverview{
     text-align: center;
 }
-#centerIndexContent{
-    padding-left: 40%;
-    
-}
+
+
 .dungeons{
     display: flex;
     flex-wrap: wrap; 
@@ -162,8 +142,6 @@ main {
 justify-content: center;
 }
 
-
-
 .fightmenu{
     display: flex;
     flex-direction: column;
@@ -191,5 +169,11 @@ justify-content: center;
 /* no copy pase */
 p{ 
     user-select: none;  
+}
+
+#faq{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
 }
 
