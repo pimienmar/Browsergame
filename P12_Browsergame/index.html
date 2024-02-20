@@ -1,6 +1,7 @@
-<!-- Login Page und Charakterauswahl -->
+<!--Charakterauswahl, bzw. Game-Start
+TODO: Game-Start noch einbauen -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +14,7 @@
     
     <header>
         <div class="logo">
-            <h1>Dungeongame</h1>
+            <h1>Browsergame</h1>
         </div>
     </header>
 
@@ -21,12 +22,12 @@
         <div class="charselectDiv">
             <div class="dungeon charselectPic">
                 <div class="dungeon1">
-                    <img id="setimg" src="">
+                    <img id="setimg" src="/P12_Browsergame/img/Platzhalter_Characterauswahl.png">
                 </div>
 
             </div>
             <!-- Auswahl-Panel mit Namen der Character -->
-            <div class="dungeon charselect"> <br>
+            <div class="dungeon charselect "> <br>
                 <p>Choose your Character</p> <br>
             
                 <input type="radio" id="char1" name="char" value="clownorc" onclick="setCharImg1()">
@@ -40,7 +41,7 @@
 
                 <input type="radio" id="char4" name="char" value="critqueen" onclick="setCharImg4()">
                 <label for="char4"> Critqueen</label> <br>
-                
+            
                 <button id="charSelectButton">Select</button>
             </div>
             

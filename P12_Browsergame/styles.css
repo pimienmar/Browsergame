@@ -53,10 +53,30 @@ a {
 }
 
 .expnav {
-    font-size: 1rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
 }
+#leveldiv, #expdiv{
+    color: darkorange;
+}
+.coinsNav{
+    display: flex;
+    justify-content: flex-start;
+}
+#coinImg {
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.spanCoinDiv{
+    padding-left: 15px;
+}
+#coinSpan {
+    color: darkorange;
+}
+
+
 /* Das grüne Hauptfenster */
 main {
     display: flex;
@@ -64,11 +84,14 @@ main {
 }
 
 .mainwindow {
-    min-height: 30rem;
+    border: solid;
+    border-radius: 5%;
+    max-height: 30rem;
     min-width: 30rem;
     background-color: rgb(147, 202, 170);
-    padding: 1rem;
-    margin: 1rem;
+    margin-left: 5px;
+    margin-top: 2%;
+    border-color: rgb(200, 180, 25);
 }
 
 .faqText{
@@ -89,13 +112,15 @@ main {
     margin-left: 30%;
 }
 .dungeon{  
-    height: 15rem;
+    height: 12rem;
     width: 13rem;
-    background-color: brown;
-    border-radius: 10px;
+    border-radius: 20px;
 }
+
 .charselectPic {
     height: 150px;
+    background-color: rgb(210, 60, 60);
+    border-radius: 20%;
 }
 .charselect{
     border-left: 0px solid;
@@ -103,21 +128,28 @@ main {
     color: azure;
     font-style: italic;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 20px;
+    background-color: rgb(210, 60, 60);;
 }
 .charselectDiv {
     padding-top: 5%;
     display: inline-block;
     padding-left: 43%;
 }
+/* Character und Monster Bild */
 #setimg{
-    border-radius: 10px;
+    border: solid;
+    border-color: rgb(210, 60, 60);
+    border-radius: 20%;
+}
+#setenemyimg{
+    border-radius: 10%;
+    padding-top: 5%;
 }
 
 .dungeon1, .dungeon2{
     height: 10rem;
     width: 13rem;
-    background-color: antiquewhite;
     border-radius: 10px;
 }
 
@@ -125,6 +157,7 @@ main {
     height: 3rem;
     width: 13rem;
     background-color: rgb(7, 170, 89);
+    border-radius: 10%;
 
     font-style: italic;
     font-size: 1rem;

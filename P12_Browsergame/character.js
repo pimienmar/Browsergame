@@ -10,6 +10,7 @@ let clownorc = {
     level: 1,
     health: 150,
     damage: 10,
+    Coins: 0,
 }
 
 let sodaAddictedPirate = {
@@ -17,6 +18,7 @@ let sodaAddictedPirate = {
     level: 1,
     health: 150,
     damage: 10,
+    Coins: 0,
 }
 
 let theLastBlueOrc = {
@@ -24,6 +26,7 @@ let theLastBlueOrc = {
     level: 1,
     health: 200,
     damage: 5,
+    Coins: 0,
 }
 
 let critqueen = {
@@ -31,6 +34,7 @@ let critqueen = {
     level: 1,
     health: 100,
     damage: 20,
+    Coins: 0,
 }
 
 
