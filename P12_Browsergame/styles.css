@@ -29,6 +29,12 @@ a {
     color: rgb(200, 180, 25);
 }
 
+button {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;   
+}
+
 /* SIDE-BAR */
 .navs {
     padding-top: 15px;
@@ -99,28 +105,11 @@ main {
     padding-top: 10% ;
 }
 
-.dungeons{
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-}
 
-#charSelectButton {
-    background-color: cadetblue;
-    font-size: larger;
-    margin-top: 10px;
-    margin-left: 30%;
-}
-.dungeon{  
-    height: 12rem;
-    width: 13rem;
-    border-radius: 20px;
-}
-
+/* Character Select */
 .charselectPic {
-    height: 150px;
-    background-color: rgb(210, 60, 60);
-    border-radius: 20%;
+    height: 180px;
+    border-radius: 30%;
 }
 .charselect{
     border-left: 0px solid;
@@ -129,12 +118,18 @@ main {
     font-style: italic;
     font-weight: 700;
     border-radius: 20px;
-    background-color: rgb(210, 60, 60);;
+    background-color: rgb(210, 60, 60);
+    width: 13rem;
+    height: 230px;
 }
 .charselectDiv {
     padding-top: 5%;
     display: inline-block;
     padding-left: 43%;
+}
+#charSelectButton {
+    margin-top: 4%;
+    margin-left: 30%;
 }
 /* Character und Monster Bild */
 #setimg{
@@ -143,27 +138,35 @@ main {
     border-radius: 20%;
 }
 #setenemyimg{
-    border-radius: 10%;
-    padding-top: 5%;
+    border: solid;
+    border-color: rgb(210, 60, 60);
+    border-radius: 20%;
+    
+}
+.dungeons{
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.dungeon{  
+    height: 14rem;
+    width: 13rem;
+}
 .dungeon1, .dungeon2{
     height: 10rem;
     width: 13rem;
-    border-radius: 10px;
 }
 
 .dungeontext{
     height: 3rem;
     width: 13rem;
     background-color: rgb(7, 170, 89);
-    border-radius: 10%;
-
     font-style: italic;
     font-size: 1rem;
     font-weight: 700;
-    
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 5px;
 }
 
@@ -175,7 +178,7 @@ main {
 .dungeoncenter{
 justify-content: center;
 }
-
+/* In fight */
 .fightmenu{
     display: flex;
     flex-direction: column;
@@ -194,7 +197,10 @@ justify-content: center;
     justify-content: space-between;
 
 }
-
+.fightbutton {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .outputcss{
     width: 200px;
     text-align: center;
