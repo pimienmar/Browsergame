@@ -83,6 +83,13 @@ function setEnemyImg2(){
     document.getElementById("setenemyimg").innerHTML = imageEnemy2;
 }
 
+function charAttackEnemy(enemy){
+    let charAtkDefDiff = char.attack - enemy.defense;
+    if (charAtkDefDiff < 0){
+        charAtkDefDiff = 0;
+    }
+    enemy.health = enemy.health - (charAtkDefDiff + minDamage);
+}
 
 function charAttackEnemy1(){
     let charAtkDefDiff = char.attack - enemy1.defense;

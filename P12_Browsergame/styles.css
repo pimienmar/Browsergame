@@ -6,6 +6,7 @@
     z-index: 0;
 }
 
+
 header {
     background-color: rgb(210, 60, 60);
     height: 50px;
@@ -21,6 +22,11 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+a {
+    text-decoration: none;
+    color: rgb(200, 180, 25);
 }
 
 /* SIDE-BAR */
@@ -46,17 +52,17 @@ body {
     border-radius: 15px;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(200, 180, 25);
-}
-
 .expnav {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
 }
 /* Das grüne Hauptfenster */
+main {
+    display: flex;
+    flex-direction: row;
+}
+
 .mainwindow {
     min-height: 30rem;
     min-width: 30rem;
@@ -65,15 +71,10 @@ a {
     margin: 1rem;
 }
 
-main {
-    display: flex;
-    flex-direction: row;
-}
-
-.outputOverview{
+.faqText{
     text-align: center;
+    padding-top: 10% ;
 }
-
 
 .dungeons{
     display: flex;
