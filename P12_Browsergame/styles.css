@@ -84,7 +84,12 @@ button {
 #coinSpan {
     color: darkorange;
 }
-
+.outoforder {
+    background-color: rgb(71, 71, 107);
+}
+.outoforder:hover{
+    background-color: rgb(71, 71, 107);
+}
 
 /* Das grüne Hauptfenster */
 main {
@@ -97,6 +102,7 @@ main {
     border-radius: 5%;
     max-height: 30rem;
     min-width: 30rem;
+    max-width: 30rem;
     background-color: rgb(147, 202, 170);
     margin-left: 5px;
     margin-top: 2%;
@@ -148,6 +154,7 @@ main {
 }
 .dungeons{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -168,7 +175,6 @@ main {
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
-    margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 5px;
 }
