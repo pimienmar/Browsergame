@@ -43,7 +43,7 @@ button {
     width: 200px;
     height: 60px;
 
-    background-color: rgb(90, 60, 170);
+    background-color: rgb(102, 0, 102);
     color: rgb(200, 180, 25);
 
     
@@ -56,6 +56,9 @@ button {
 
     border: 3px solid;
     border-radius: 15px;
+}
+.pages:hover {
+    background-color: rgb(204, 0, 204);
 }
 
 .expnav {
