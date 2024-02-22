@@ -107,6 +107,10 @@ main {
     margin-left: 5px;
     margin-top: 2%;
     border-color: rgb(200, 180, 25);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .faqText{
@@ -152,11 +156,9 @@ main {
     border-radius: 20%;
     
 }
-.dungeons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+/* .dungeons{
+    
+} */
 
 .dungeon{  
     height: 14rem;
