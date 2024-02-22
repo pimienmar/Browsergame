@@ -5,6 +5,7 @@
     "characters": [
       {
         "name": "Clown Orc",
+        "value": "clownorc",
         "level": 1,
         "health": 150,
         "damage": 10,
@@ -13,6 +14,7 @@
       },
       {
         "name": "Soda addicted Pirate",
+        "value": "sodaaddictedpirate",
         "level": 1,
         "health": 150,
         "damage": 10,
@@ -21,6 +23,7 @@
       },
       {
         "name": "The last blue Orc",
+        "value": "thelastblueorc",
         "level": 1,
         "health": 200,
         "damage": 5,
@@ -29,6 +32,7 @@
       },
       {
         "name": "Critqueen",
+        "value": "critqueen",
         "level": 1,
         "health": 100,
         "damage": 20,
