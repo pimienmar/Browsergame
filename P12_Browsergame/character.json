@@ -8,28 +8,32 @@
         "level": 1,
         "health": 150,
         "damage": 10,
-        "coins": 0
+        "coins": 0,
+        "imagePath": "img/char1.png"  
       },
       {
         "name": "Soda addicted Pirate",
         "level": 1,
         "health": 150,
         "damage": 10,
-        "coins": 0
+        "coins": 0,
+        "img/char1.png": "img/char2.png"
       },
       {
         "name": "The last blue Orc",
         "level": 1,
         "health": 200,
         "damage": 5,
-        "coins": 0
+        "coins": 0,
+        "img/char1.png": "img/char3.png"
       },
       {
         "name": "Critqueen",
         "level": 1,
         "health": 100,
         "damage": 20,
-        "coins": 0
+        "coins": 0,
+        "img/char1.png": "img/char4.png"
       }
     ]
   }
