@@ -134,35 +134,31 @@ if (char.health <= 0) {
 }
 
 
-/*
-for (charLevel; charLevel < 10; i++) {
-    nextLevelExp = nextLevelExp * i * 20;
-}
-*/
+// Character Bild setzen, bei der Character-Auswahl
 
-function setCharImg1(){
-    let image1 = document.getElementById('setimg');
-    image1.src = "img/char1.png";
-    document.getElementById("imgtest").innerHTML = image1;
-}
+// function setCharImg1(){
+//     let image1 = document.getElementById('setimg');
+//     image1.src = "/P12_Browsergame/img/char1.png";
+//     document.getElementById("imgtest").innerHTML = image1;
+// }
 
-function setCharImg2(){
-    let image2 = document.getElementById('setimg');
-    image2.src = "img/char2.png";
-    document.getElementById("imgtest").innerHTML = image2;
-}
+// function setCharImg2(){
+//     let image2 = document.getElementById('setimg');
+//     image2.src = "img/char2.png";
+//     document.getElementById("imgtest").innerHTML = image2;
+// }
 
-function setCharImg3(){
-    let image3 = document.getElementById('setimg');
-    image3.src = "img/char3.png";
-    document.getElementById("imgtest").innerHTML = image3;
-}
+// function setCharImg3(){
+//     let image3 = document.getElementById('setimg');
+//     image3.src = "img/char3.png";
+//     document.getElementById("imgtest").innerHTML = image3;
+// }
 
-function setCharImg4(){
-    let image4 = document.getElementById('setimg');
-    image4.src = "img/char4.png";
-    document.getElementById("imgtest").innerHTML = image4;
-}
+// function setCharImg4(){
+//     let image4 = document.getElementById('setimg');
+//     image4.src = "img/char4.png";
+//     document.getElementById("imgtest").innerHTML = image4;
+// }
 
 
 function fight(){
