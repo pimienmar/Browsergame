@@ -71,6 +71,7 @@ function fightRandomMonster(){
     }
 }
 
+// Character Bild wird gesetzt  
 function setEnemyImg1(){
     let imageEnemy1 = document.getElementById('setenemyimg');
     imageEnemy1.src = "img/monster1.png";
