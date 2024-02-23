@@ -1,7 +1,47 @@
+// let submitWurdeGeclicked = false;
+// // Element auswählen
+// let derSubmitButton = document.getElementById("charSelectButton");
+
+// derSubmitButton.addEventListener("click", function() {
+//     // Funktion, die beim Klick ausgeführt wird
+//     console.log("Button wurde geklickt!");
+//     // Den Zustand des Klicks aktualisieren
+//     submitWurdeGeclicked = true;
+//     window.location.href = "faq.html";
+    
+// });
+
+function submitCharacterChoose(event){
+    console.log("Click")
+    window.location.href = "faq.html";
+    event.preventDefault();
+    return false;
+}
+
+
 function setCharImg1(){
     let image1 = document.getElementById('setimg');
     image1.src = "/P12_Browsergame/img/char1.png";
     
+
+
+    // if (submitWurdeGeclicked) {
+    //     console.log("Orc Clown wird zugewiesen");
+    //     window.location.href = "dungeonOverview.html";
+    // } else {
+    //     console.log("Der Button wurde noch nicht geklickt.");
+    // }
+
+    // if ()
+    // let clownorc = {
+    //     name : "Clown Orc",
+    //     level: 1,
+    //     health: 150,
+    //     damage: 10,
+    //     Coins: 0,
+    //     text: "Ich bin ein Clown-Orc",
+    //     imagePath: "img/char1.png"
+    // }
 }
 
 function setCharImg2(){
